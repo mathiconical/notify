@@ -32,7 +32,7 @@ class Notify:
 			'out_type':'blink',
 		}
 	
-	def notify(self, **kargs):
+	def message(self, **kargs):
 		PARAMS = {**self.__DEFAULT_PARAMS, **kargs}
 
 		if not PARAMS['custom_bgc']:
