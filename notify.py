@@ -56,9 +56,9 @@ class Notify:
 		position = list(sg.Window.get_screen_size())
 
 		if not PARAMS['add_y']:
-			position = position[0] - 360, position[1] - 100
+			position = position[0] - 350, position[1] - 100
 		else:
-			position = position[0] - 360, position[1] - ( 100 + 65 * PARAMS['add_y'] )
+			position = position[0] - 350, position[1] - ( 100 + 65 * PARAMS['add_y'] )
 
 		window = sg.Window(
 			PARAMS['title'],
