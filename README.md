@@ -3,8 +3,6 @@
 
 **Tabela Guia**
 
-[TOCM]
-
 [TOC]
 
 # O que o projeto faz ?
