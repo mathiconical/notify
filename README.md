@@ -1,19 +1,25 @@
 # notify
 >Python windows notify using PySimpleGUI
 
-### O que o projeto faz ?
+**Tabela Guia**
+
+[TOCM]
+
+[TOC]
+
+# O que o projeto faz ?
 >O projeto exibe uma janela de notificação no canto inferior direito da tela.
 
-### Por que o projeto é útil ?
+# Por que o projeto é útil ?
 >Será útil para fazer outros projetos, tais como conversa entre clientes em LAN, alarme para pomodoro, e etc. Além de servir como aprendizado.
 
-### Como os usuários podem começar a usar o projeto ?
+# Como os usuários podem começar a usar o projeto ?
 >Basta instalar o pySimpleGUI. Caso queira instalar usando o requirements, use o comando: `pip install -r requirements.txt`
 
-### Onde os usuários podem obter ajuda com seu projeto ?
+# Onde os usuários podem obter ajuda com seu projeto ?
 >Na própria documentação do Python e PySimpleGUI tem muita informação, caso precise, pode entrar em contato.
 
-#### Código　
+# Código　
 
 ```python
 #! as cores são informadas aqui, caso haja necessidade de alterar.
@@ -50,10 +56,11 @@ DEFAULT_PARAMS = {
 }
 ```
 
-#### Observações
+# Observações
 >O argumento `add_y` é onde a janela irá aparecer, 0 é o padrão. Recomendo usar com Thread / Multiprocess, para executar uma em cima da outra, caso precise.
 >O argumento `custom_bgc` é para passar uma cor específica que não esteja listada no código.
 >O argumento `fade_in`  ativa o efeito de `alpha` da janela, ela vai sumindo no horizonte de acordo com o tempo especificado.
 
-![](fade_in.gif)
-![](no_fade_in.gif)
+# Imagens
+>![](fade_in.gif)
+>![](no_fade_in.gif)
